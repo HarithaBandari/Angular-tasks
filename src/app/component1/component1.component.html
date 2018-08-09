@@ -1,0 +1,9 @@
+
+<div>
+    Enter something:
+  
+   <input type="text" #text>
+    <button (click)="getData(text.value)">submit</button> 
+   
+    
+   <p>data:  {{text.value}}</p>
